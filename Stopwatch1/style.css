@@ -1,0 +1,80 @@
+
+ /* Created by Yash kumar Banjare..... */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ /* Created by Yash kumar Banjare..... */
+body {
+  font-family: 'Courier New', monospace;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle, #000000 0%, #0f0f0f 100%);
+  color: #00ff00;
+  overflow: hidden;
+}
+ /* Created by Yash kumar Banjare..... */
+.container {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 30px #00ff00;
+  max-width: 500px;
+  width: 90%;
+  border: 2px solid #00ff00;
+}
+ /* Created by Yash kumar Banjare..... */
+h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #00ff00;
+  text-shadow: 0 0 10px #00ff00;
+}
+
+.stopwatch { /* Created by Yash kumar Banjare..... */
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 12px;
+  background: rgba(0, 255, 0, 0.05);
+  box-shadow: 0 0 20px #00ff00, inset 0 0 10px #00ff00;
+  margin-bottom: 30px;
+} /* Created by Yash kumar Banjare..... */
+
+#display {
+  text-shadow: 0 0 20px #00ff00, 0 0 40px #00ff00;
+  color: #00ff00;
+}
+ /* Created by Yash kumar Banjare..... */
+.buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+ /* Created by Yash kumar Banjare..... */
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  background: transparent;
+  border: 2px solid #00ff00;
+  color: #00ff00;
+  font-size: 1rem; /* Created by Yash kumar Banjare..... */
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 0 10px #00ff00;
+} /* Created by Yash kumar Banjare..... */
+
+button:hover {
+  background: #00ff00;
+  color: #000;
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #00ff00;
+}
+ /* Created by Yash kumar Banjare..... */

@@ -1,0 +1,84 @@
+
+ /* Created by Yash kumar Banjare..... */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ /* Created by Yash kumar Banjare..... */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #8e44ad, #3498db, #ec2805, #f1c40f, #e74c3c);
+  background-size: 500% 500%;
+  animation: gradientAnimation 15s ease infinite;
+  color: #fff;
+} /* Created by Yash kumar Banjare..... */
+
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.container {
+  text-align: center; /* Created by Yash kumar Banjare..... */
+  padding: 2rem;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 25px rgba(18, 226, 21, 0.2);
+  max-width: 400px;
+  width: 90%;
+} /* Created by Yash kumar Banjare..... */
+
+h1 {
+  margin-bottom: 20px;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+ /* Created by Yash kumar Banjare..... */
+.stopwatch {
+  font-size: 2.8rem;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 12px;
+  background: rgba(218, 0, 0, 0.05);
+  box-shadow: 0 0 25px #00c6ff;
+  margin-bottom: 30px;
+}
+ /* Created by Yash kumar Banjare..... */
+#display {
+  text-shadow: 0 0 15px #00c6ff;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+ /* Created by Yash kumar Banjare..... */
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(45deg, #ff00cc, #3333ff);
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 0 10px #3333ff;
+}
+ /* Created by Yash kumar Banjare..... */
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #ff00cc;
+}
+ /* Created by Yash kumar Banjare..... */
+
+ 
